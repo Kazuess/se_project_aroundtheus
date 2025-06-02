@@ -27,7 +27,6 @@
   overflow: hidden;
   font-weight: 900;
   font-size: 24px;
-  letter-spacing: 0%;
   line-height: 100%;
   margin: 0;
 }
@@ -37,4 +36,8 @@
   width: 21px;
   height: 18px;
   border: none;
+}
+
+.card__like-button:hover {
+  background: transparent url(../images/like-active.svg) center no-repeat;
 }
